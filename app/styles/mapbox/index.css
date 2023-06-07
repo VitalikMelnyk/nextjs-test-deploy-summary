@@ -1,0 +1,23 @@
+.mapboxgl-popup {
+  z-index: 2;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-group {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapboxgl-ctrl button.mapboxgl-ctrl-shrink .mapboxgl-ctrl-icon,
+.mapboxgl-ctrl button.mapboxgl-ctrl-fullscreen .mapboxgl-ctrl-icon {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAADdAAAA3QFwU6IHAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAACpQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5lNJigAAAA10Uk5TAAwQFF5gY4C4wN7g4xD0XagAAABRSURBVBiVY+i9e/e2AgMD49q7d28w3CwvL2UAAvfy8rkM1xngoJYszlYEJ4dBAcFhZqAuQDKaEdlSL8q9AAyQEhArHBQgwKC6JcDAwLQXGFQAkaok3GviPgcAAAAASUVORK5CYII=') !important;
+}
+
+.mapboxgl-scroll-zoom-blocker,
+.mapboxgl-touch-pan-blocker {
+  /* z-index: 10 for nav buttons */
+  z-index: 9;
+}
